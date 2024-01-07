@@ -1,0 +1,39 @@
+body{
+  padding: 50px; 
+  border-radius: 16px;
+  background-image: url(banner.png);
+
+  background-repeat: no-repeat;
+  /* background-size: 1600px 900px; */
+  width: 1520px;
+  height: 600px;
+/* align-items: center; */
+  background-position: center;
+  border-radius: 16px;
+  
+}
+.header{
+  margin: 70px;
+  /* width: 632px; */
+  color: white;
+
+  text-align: center ;
+  font-family: Merriweather;
+  font-size: 32px;
+
+  font-weight: 400;
+  padding-left: 300px;
+  
+}
+.banner{
+  font-style: 500px;
+  color: #FFF;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+padding-left: 300px;
+
+}
