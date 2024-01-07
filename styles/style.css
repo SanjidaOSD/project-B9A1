@@ -1,5 +1,6 @@
-body{
-  padding: 50px; 
+/* part 1 styles */
+body {
+  padding: 50px;
   border-radius: 16px;
   background-image: url(banner.png);
 
@@ -7,33 +8,58 @@ body{
   /* background-size: 1600px 900px; */
   width: 1520px;
   height: 600px;
-/* align-items: center; */
+  /* align-items: center; */
   background-position: center;
   border-radius: 16px;
-  
+  background: -o-linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
 }
-.header{
+
+.header {
   margin: 70px;
   /* width: 632px; */
   color: white;
 
-  text-align: center ;
+  text-align: center;
   font-family: Merriweather;
   font-size: 32px;
 
   font-weight: 400;
   padding-left: 300px;
-  
+
 }
-.banner{
+
+.banner {
   font-style: 500px;
   color: #FFF;
 
-text-align: center;
-font-family: Merriweather;
-font-size: 72px;
-font-style: normal;
-font-weight: 900;
-padding-left: 300px;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  padding-left: 300px;
 
 }
+
+ /* part 2 styles */
+.offer {
+  /* background-color: rgb(250, 248, 246); */
+  padding:100px;
+  border-radius:10px ;
+  margin:300px ;
+  position: center;
+  margin-right: 80px;
+  padding-left: 350px;
+  background-position: center;
+
+}
+.title{
+  text-align: center;
+  font-size: 50px;
+  font-weight:50;
+}
+.holiday
+  text-align: center;
+  font-size: 100px;
+  font-weight:50;
+  
