@@ -47,7 +47,6 @@ body {
 }
 
 
-
 .section-heading {
   max-width: 400px;
   text-align: center;
@@ -80,9 +79,23 @@ body {
 .new-year{
   margin: 500px;
   margin-top: 10px;
-  width: 100, 10px;
-  height: 300px;
+  width: 10, 10px;
+  height: 100px;
   margin-bottom: 0%;
   
-
 }
+.banner-text{
+  padding: 30px 30px 30px 150px;
+  margin: 500px;
+}
+.background{ 
+  margin: 200px; 
+  width: 1320px;
+  height: 600px;
+  background-position: center;
+  /* height: 500px;  */
+  margin-bottom: 10px;
+  flex-shrink: 0;
+}
+
+
