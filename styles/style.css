@@ -21,28 +21,25 @@ body {
 }
 
 .header {
-  margin: 70px;
+  margin: 50px;
   /* width: 632px; */
   color: white;
 
   text-align: center;
-  font-family: Merriweather;
-  font-size: 32px;
-
+  font-size: 52px;
   font-weight: 400;
-  padding-left: 300px;
+  /* padding-left: 300px; */
 
 }
 
 .banner {
   font-style: 500px;
-  color: #FFF;
-
+  color: white;
   text-align: center;
-  font-family: Merriweather;
   font-size: 72px;
   font-weight: 900;
-  padding-left: 300px;
+  /* padding-left: 300px; */
+  
 
 }
 
@@ -59,7 +56,7 @@ body {
   color: #F00;
   text-align: center;
   font-family: Inter;
-  font-size: 88px;
+  font-size: 50px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -70,7 +67,7 @@ body {
   color: #F00;
   text-align: center;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -78,7 +75,7 @@ body {
 }
 
 .new-year {
-  margin: 500px;
+  margin: 400px;
   margin-top: 10px;
   width: 10, 10px;
   height: 50px;
@@ -88,11 +85,11 @@ body {
 }
 
 .banner-text {
-  padding: 500px;
+  padding: 200px;
   border-radius: 16px;
   background-image: url(background.png);
   background-repeat: no-repeat;
-  margin: 100px;
+  margin: 50px;
   margin-top: 500px;
   position: relative;
   margin-bottom: none;
@@ -100,23 +97,30 @@ body {
 }
 
 .banner-greeting {
-  font-size: 40px;
-  /* position: absolute; */
+  font-size: 80px;
+  /* margin-bottom:60px; */
   color: #FFF;
   align-items: center;
 
-
-  /* padding: 100px; 
-  margin: 20px;
-  margin-bottom: 10px;
+}
+.banner-paragraph{
+  font-size: 30px;
+  color: white;
   text-align: center;
-  font-size:  50px;
-  color: #1d1717; */
 }
 
 .btn {
-  color: blueviolet;
-  border-bottom: 40px;
+  background-color: red;
+  display: inline-flex;
+  padding: 13px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin-left: 400px;
+  margin-top: 30px;
 
 }
 
