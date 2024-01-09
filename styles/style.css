@@ -95,17 +95,16 @@ body {
   margin: 100px;
   margin-top: 500px;
   position: relative;
+  margin-bottom: none;
 
 }
 
-
-
-
 .banner-greeting {
   font-size: 40px;
-  position: absolute;
+  /* position: absolute; */
   color: #FFF;
-  padding: top 30px;
+  align-items: center;
+  
 
   /* padding: 100px; 
   margin: 20px;
@@ -117,6 +116,7 @@ body {
 
 .btn {
   color: blueviolet;
+  border-bottom: 40px;
 
 }
 
@@ -225,10 +225,51 @@ line-height: 32px;
   border-radius: 0px 50px 50px 0px;
   background: #F00;
   height: 40px;
-  border: #FFF;
+  border: red;
   
 }
 .form{
   height: 40px;
-  border: #FFF;
+  border: white;
+  border-radius: 50px 5px 5px 50px;
+}
+.last-container{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+   margin-top: 20px;
+  border: 100px;
+
+}
+.last2{
+  margin-right: 600px;
+  border: 100px;
+  margin-top: 50px;
+}
+.last3{
+  margin-top: 50px;
+}
+.icon-container{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 35px;
+}
+.finishing{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.finish1{
+  margin-right: 600px;
+  border: 100px;
+  margin-top: 50px;
+}
+.finish2{
+  margin-left: 50px;
+  border: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
